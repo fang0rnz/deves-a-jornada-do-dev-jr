@@ -1,19 +1,26 @@
 {
+  "name": "deves-a-jornada-do-dev-jr",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "description": "Deck created with mdx-deck",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "spectacle-scripts": "2.0.1"
+  },
   "scripts": {
-    "start": "mdx-deck deck.mdx",
-    "build": "mdx-deck build deck.mdx",
-    "pdf": "mdx-deck pdf deck.mdx",
-    "image": "mdx-deck screenshot deck.mdx",
-    "help": "mdx-deck"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "Brent Jackson",
-  "license": "MIT",
-  "devDependencies": {
-    "mdx-deck": "^1.6.7"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "name": "deves-a-jornada-do-dev-jr"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "http://fang0rnz.github.io/deves-a-jornada-do-dev-jr"
 }
