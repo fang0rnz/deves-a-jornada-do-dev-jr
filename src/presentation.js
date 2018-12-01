@@ -3,7 +3,7 @@ import React from 'react';
 
 // Import Spectacle Core tags
 import { Deck, Heading, Slide, Text, Appear, Notes, Image } from 'spectacle';
-
+import { FaTwitter, FaGithubAlt } from 'react-icons/fa';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 
@@ -177,6 +177,15 @@ export default class Presentation extends React.Component {
 
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Image width="100%" src="junior.gif" />
+        </Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <Heading>Obrigado! 🎉</Heading>
+          <div style={{ marginTop: '50px' }}>
+            <FaTwitter /> <FaGithubAlt />
+            <div>
+              <span>@fang0rnz</span>
+            </div>
+          </div>
         </Slide>
       </Deck>
     );
