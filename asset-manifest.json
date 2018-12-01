@@ -1,13 +1,15 @@
 {
-  "main.js": "/deves-a-jornada-do-dev-jr/static/js/main.86d3e434.chunk.js",
-  "main.js.map": "/deves-a-jornada-do-dev-jr/static/js/main.86d3e434.chunk.js.map",
-  "static/css/1.c2bf813d.chunk.css": "/deves-a-jornada-do-dev-jr/static/css/1.c2bf813d.chunk.css",
-  "static/js/1.c94f5c1b.chunk.js": "/deves-a-jornada-do-dev-jr/static/js/1.c94f5c1b.chunk.js",
-  "static/js/1.c94f5c1b.chunk.js.map": "/deves-a-jornada-do-dev-jr/static/js/1.c94f5c1b.chunk.js.map",
+  "main.css": "/deves-a-jornada-do-dev-jr/static/css/main.52407f52.chunk.css",
+  "main.js": "/deves-a-jornada-do-dev-jr/static/js/main.a65966c8.chunk.js",
+  "main.js.map": "/deves-a-jornada-do-dev-jr/static/js/main.a65966c8.chunk.js.map",
+  "static/css/1.90d431b7.chunk.css": "/deves-a-jornada-do-dev-jr/static/css/1.90d431b7.chunk.css",
+  "static/js/1.06854ce4.chunk.js": "/deves-a-jornada-do-dev-jr/static/js/1.06854ce4.chunk.js",
+  "static/js/1.06854ce4.chunk.js.map": "/deves-a-jornada-do-dev-jr/static/js/1.06854ce4.chunk.js.map",
   "runtime~main.js": "/deves-a-jornada-do-dev-jr/static/js/runtime~main.4aea39fd.js",
   "runtime~main.js.map": "/deves-a-jornada-do-dev-jr/static/js/runtime~main.4aea39fd.js.map",
-  "static/css/1.c2bf813d.chunk.css.map": "/deves-a-jornada-do-dev-jr/static/css/1.c2bf813d.chunk.css.map",
+  "static/css/main.52407f52.chunk.css.map": "/deves-a-jornada-do-dev-jr/static/css/main.52407f52.chunk.css.map",
+  "static/css/1.90d431b7.chunk.css.map": "/deves-a-jornada-do-dev-jr/static/css/1.90d431b7.chunk.css.map",
   "index.html": "/deves-a-jornada-do-dev-jr/index.html",
-  "precache-manifest.2d423f1a56db7770a697586604d6584f.js": "/deves-a-jornada-do-dev-jr/precache-manifest.2d423f1a56db7770a697586604d6584f.js",
+  "precache-manifest.d9e49042c53584baab52baddd8e881e5.js": "/deves-a-jornada-do-dev-jr/precache-manifest.d9e49042c53584baab52baddd8e881e5.js",
   "service-worker.js": "/deves-a-jornada-do-dev-jr/service-worker.js"
 }
