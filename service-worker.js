@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/deves-a-jornada-do-dev-jr/precache-manifest.0e3d89aaf4e79b4a63903084d45ce0d3.js"
+  "/deves-a-jornada-do-dev-jr/precache-manifest.491d4ffc3ba5649aedf57e348ccb76d2.js"
 );
 
 workbox.clientsClaim();
