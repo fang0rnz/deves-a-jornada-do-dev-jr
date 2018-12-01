@@ -2,18 +2,12 @@
 import React from 'react';
 
 // Import Spectacle Core tags
-import {
-  Deck,
-  Heading,
-  Slide,
-  Text,
-  Appear,
-  Notes,
-  Image
-} from 'spectacle';
+import { Deck, Heading, Slide, Text, Appear, Notes, Image } from 'spectacle';
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
+
+import './styles.css';
 
 // Require CSS
 require('normalize.css');
@@ -23,11 +17,11 @@ const theme = createTheme(
     primary: 'white',
     secondary: '#1F2022',
     tertiary: '#03A9FC',
-    quaternary: '#CECECE',
+    quaternary: '#CECECE'
   },
   {
     primary: 'Montserrat',
-    secondary: 'Helvetica',
+    secondary: 'Helvetica'
   }
 );
 
@@ -52,41 +46,57 @@ export default class Presentation extends React.Component {
             <ul>
               <li>Aprenda em público. Networking.</li>
               <li>Qual a realidade do mercado de ti hoje em dia?</li>
-              <li>Existe realmente mais gente MUITO experiente que gente inexperiente?</li>
-              <li>Terminar falando sobre o mercado de trabalho e suas mudanças</li>
+              <li>
+                Existe realmente mais gente MUITO experiente que gente
+                inexperiente?
+              </li>
+              <li>
+                Terminar falando sobre o mercado de trabalho e suas mudanças
+              </li>
             </ul>
           </Notes>
-          <Heading size={1} textColor="primary" caps>
+          <Heading padding={50} size={1} textColor="primary" caps>
             🤔
           </Heading>
           <Appear>
-            <Text>Como começar a sua carreira de desenvolvedor?</Text>
+            <li>Como começar a sua carreira de desenvolvedor?</li>
           </Appear>
           <Appear>
-            <Text>Como utilizar novos desenvolvedores ao seu máximo potencial?</Text>
+            <li>Como atenuar a curva de adaptação de um desenvolvedor?</li>
           </Appear>
         </Slide>
         <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
           <Notes>
             <li>Contar história de como fui rejeitado</li>
-            <li>O mercado antigo nunca se preparou para a profissão de programador</li>
-            <li> Mão de obra qualificada NECESSITAVA de ensino formal por boas razões</li>
+            <li>
+              O mercado antigo nunca se preparou para a profissão de programador
+            </li>
+            <li>
+              Mão de obra qualificada NECESSITAVA de ensino formal por boas
+              razões
+            </li>
             <li> O cenário mudou, visto que o conhecimento é acessível</li>
             <li> A maioria dos métodos de seleção está defasado</li>
             <li> Isso impacta diretamente no financeito de qualquer empresa</li>
-            <li> Caixa de skinner de devs para resolverem um problema, o que leva a um problema</li>
+            <li>
+              Caixa de skinner de devs para resolverem um problema, o que leva a
+              um problema
+            </li>
           </Notes>
 
-          <Heading size={6} textColor="secondary" caps>
-            👩🏿‍🏭 🏭 🏭 👨‍🏭
+          <Heading textColor="secondary" caps>
+            👩🏿‍🏭 🏭 👨‍🏭
           </Heading>
-          <Appear>
-            <Heading size={5}>👩💻 👨‍💻</Heading>
-          </Appear>
-          <Appear>
-            <Heading size={5}>☕☕☕</Heading>
-          </Appear>
+        </Slide>
 
+        <Slide bgColor="secondary" transition={['slide']}>
+          <Image width="50%" src="dan.jpg" />
+        </Slide>
+        <Slide transition={['slide']} bgColor="primary" textColor="tertiary">
+          <Heading style={{ marginTop: '50px' }}>👩💻 👨‍💻</Heading>
+          <Appear>
+            <Heading style={{ marginTop: '50px' }}>☕</Heading>
+          </Appear>
         </Slide>
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Notes>
@@ -101,42 +111,73 @@ export default class Presentation extends React.Component {
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
           <Notes>
             <li> Paciência</li>
-            <li> Pair programming entre juniors</li>
-            <li> Pair programming com seniors</li>
-            <li> Nem sempre a pessoa mais experiente é a mais apta a ajudar um desenvolvedor junior</li>
+            <li> Estrutura de pair programming</li>
+            <li>
+              Nem sempre a pessoa mais experiente é a mais apta a ajudar um
+              desenvolvedor junior
+            </li>
           </Notes>
           <Image width="100%" src="lotr.gif" />
         </Slide>
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <Notes>
+            <li> Paciência</li>
+            <li> Estrutura de pair programming</li>
+            <li>
+              Nem sempre a pessoa mais experiente é a mais apta a ajudar um
+              desenvolvedor junior
+            </li>
+          </Notes>
           <Image width="100%" src="smith.gif" />
         </Slide>
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
-          <Heading size={1}>
-            💭
-          </Heading>
+          <Heading size={1}>💭</Heading>
           <Appear>
-            <li>Estratégias de ensino</li>
+            <li style={{ paddingTop: '60px' }}>Estratégias de ensino</li>
           </Appear>
           <Appear>
-            <li>Cultura de tutoria</li>
+            <li>
+              Cultura de tutoria - é ok e esperado não entender algo de primeira
+            </li>
           </Appear>
           <Appear>
-            <li>Escolha minuciosa de tarefas que edifiquem os conhecimentos </li>
+            <li>Escolha de tarefas apropriadas para o nível de conhecimento</li>
           </Appear>
           <Appear>
             <li>Processo mais visual </li>
           </Appear>
         </Slide>
-
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
-          <Image width="100%" src="kungfu.gif"></Image>
+          <Image width="100%" src="kungfu.gif" />
+        </Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <Heading>Desafio para o coffee break</Heading>
+        </Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+          <Heading size={5}>💡</Heading>
+          <Appear>
+            <li>
+              <strong>Compartilhe</strong> experiências de tutoria
+            </li>
+          </Appear>
+          <Appear>
+            <li>
+              <strong>Discuta</strong> como você e seu time podem rever
+              processos defasados
+            </li>
+          </Appear>
+          <Appear>
+            <li>
+              <strong>Ache</strong> alguém com vontade de aprender / entrar na
+              indústria e tente ajudar.{' '}
+              <em>Especialmente se você for júnior</em>
+            </li>
+          </Appear>
         </Slide>
 
-
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
-          <Image width="100%" src="junior.gif"></Image>
+          <Image width="100%" src="junior.gif" />
         </Slide>
-
       </Deck>
     );
   }

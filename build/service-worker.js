@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.2df7d73c8948223902b06bdb8c0a7b88.js"
+  "/deves-a-jornada-do-dev-jr/precache-manifest.d9e49042c53584baab52baddd8e881e5.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/index.html", {
+workbox.routing.registerNavigationRoute("/deves-a-jornada-do-dev-jr/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
